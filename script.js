@@ -1,6 +1,6 @@
 //your JS code here. If required.
 
-const circles = document.querySelectorAll('.circle');
+const circles = document.querySelectorAll('circle');
 const progressLine = document.createElement('div'); 
 progressLine.classList.add('progress-line-fill'); 
 document.querySelector('.progress-bar').appendChild(progressLine);
